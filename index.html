@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Data</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Patient Data</h1>
+    </header>
+    <main>
+      <section id="patient-info">
+        <h2>Patient Details</h2>
+        <p><strong>Name:</strong> <span id="name"></span></p>
+        <p><strong>Age:</strong> <span id="age"></span></p>
+        <p><strong>Gender:</strong> <span id="gender"></span></p>
+      </section>
+      <section id="chart-container">
+        <h2>Blood Pressure Graph</h2>
+        <canvas id="bpChart"></canvas>
+      </section>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
