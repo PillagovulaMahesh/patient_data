@@ -1,4 +1,4 @@
-const API_URL = "https://api.mocki.io/v2/0c6d0a41"; // Replace with the actual API URL
+const API_URL = "https://xd.adobe.com/view/121254c9-532f-4772-a1ba-dfe529a96b39-4741/"; 
 
 async function fetchPatientData() {
     try {
